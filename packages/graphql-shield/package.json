@@ -1,12 +1,12 @@
 {
-  "name": "graphql-shield",
+  "name": "@olmero/graphql-shield",
   "description": "GraphQL Server permissions as another layer of abstraction!",
-  "version": "7.6.5",
+  "version": "8.0.0",
   "author": "Matic Zavadlal <matic.zavadlal@gmail.com>",
-  "homepage": "https://github.com/maticzav/graphql-shield",
+  "homepage": "https://github.com/olmero/graphql-shield",
   "repository": {
     "type": "git",
-    "url": "https://github.com/maticzav/graphql-shield.git"
+    "url": "git+https://github.com/olmero/graphql-shield.git"
   },
   "scripts": {
     "check": "tsc --noEmit"
@@ -62,6 +62,7 @@
   "sideEffects": false,
   "publishConfig": {
     "directory": "dist",
-    "access": "public"
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
   }
 }
