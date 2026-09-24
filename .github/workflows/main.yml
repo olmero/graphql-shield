@@ -15,6 +15,7 @@ jobs:
     with:
       script: 'pnpm build && pnpm test:ci --logHeapUsage'
       nodeVersions: '[20,22,24]'
+      packageManagerVersion: '11'
       packageManager: pnpm
 
   typecheck:
