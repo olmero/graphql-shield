@@ -2,11 +2,11 @@
   "$schema": "https://unpkg.com/@changesets/config@2.1.0/schema.json",
   "changelog": [
     "@changesets/changelog-github",
-    { "repo": "dimatill/graphql-shield" }
+    { "repo": "olmero/graphql-shield" }
   ],
   "commit": false,
   "linked": [],
-  "access": "public",
+  "access": "restricted",
   "baseBranch": "master",
   "updateInternalDependencies": "patch",
   "snapshot": {
